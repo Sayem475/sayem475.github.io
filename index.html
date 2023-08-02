@@ -18,6 +18,22 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .mainbanner-text {
+  width: 100%;
+  max-width: 989px; 
+  margin: 0 auto; 
+}
+
+@media (max-width: 767px) {
+  .mainbanner-text {
+    font-size: 24px; 
+    line-height: 1.4; 
+    padding: 10px;
+  }
+}
+
+  </style>
 
 </head>
 
@@ -45,7 +61,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
       <div class="header-social-links d-flex align-items-center">
-        <button class="btn btn-sm btn-outline-warning" style="border-radius: 15px;padding-right: 20px;
+        <button class="btn btn-sm btn-outline-warning d-sm-none d-md-block" style="border-radius: 15px;padding-right: 20px;
         padding-left: 20px;">Log In</button>
       </div>
     </div>
@@ -53,8 +69,10 @@
 
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container text-center text-md-left" data-aos="fade-up">
-      <h1 style="width: 989px; margin: 0 auto;">Effortlessly Expand Your Audience and Streamline Brand Management!</h1>
-      <h2 style="width: 597px; margin: 0 auto;">EZway Social helps you build an audience organically. Maximise your Marketing Potential with Expert Management</h2>
+      <!-- <h1 style="width: 989px; margin: 0 auto;">Effortlessly Expand Your Audience and Streamline Brand Management!</h1> -->
+      <h1 class="mainbanner-text">Effortlessly Expand Your Audience and Streamline Brand Management!</h1>
+
+      <h2 class="mainbanner-text">EZway Social helps you build an audience organically. Maximise your Marketing Potential with Expert Management</h2>
       <a href="#about" class="btn btn-warning scrollto mt-5">Get Started Now</a>
     </div>
   </section>
@@ -103,16 +121,11 @@
     <section id="about" class="about" style="background-color:#FAFAFC;
     ;">
       <div class="container mt-5 mb-5">
-        <!-- <div class="container text-center info mb-5 ">
-          <h3><span class="text-warning">EZway Social</span> Suitable for</h3>
-            <p>
-              With eZway Social, you can reach more people, boost your brand, and connect better with your audience.
-            </p>
-        </div> -->
+ 
         <div class="container text-center">
           <div class="info mb-5" >
             <h3><span class="text-warning">EZway Social</span> Suitable for</h3>
-            <p style="width: 554px; margin: 0 auto;">
+            <p class="mainbanner-text">
               With eZway Social, you can reach more people, boost your brand, and connect better with your audience.
             </p>
           </div>
@@ -176,7 +189,7 @@
       <div class="container">
         <div class="headings text-center mt-5 mb-4">
           <h5>Why Choose Us?</h5>
-          <p style="width: 665px; margin: 0 auto;">With eZway Social, you can handle all your social media in one place! Plan, schedule, and track your performance effortlessly. </p>
+          <p class="mainbanner-text">With eZway Social, you can handle all your social media in one place! Plan, schedule, and track your performance effortlessly. </p>
         </div>
 
         <div class="row">
@@ -265,7 +278,7 @@
       <div class="container">
         <div class="service-head text-center">
           <h3>Manage most popular social networks on <span class="text-warning">eZway Social</span> </h3>
-          <p style="width: 888px; margin: 0 auto;">Most popular social networks worldwide: Twitter, Facebook, Instagram, LinkedIn,
+          <p class="mainbanner-text">Most popular social networks worldwide: Twitter, Facebook, Instagram, LinkedIn,
             Youtube, Google My Business, Pinterest, Telegram, Reddit, Tumblr, VK, Ok and Tinder
             They are used like modules for Stackposts Main Script.</p>
         </div>
